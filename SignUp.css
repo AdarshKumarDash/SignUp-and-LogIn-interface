@@ -1,0 +1,58 @@
+body {
+    background-color: royalblue;
+}
+
+.SignUpInfo {
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    width: 550px;
+    height: 660px;
+    margin-left: 500px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px 1px currentcolor;
+}
+
+.cmder {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.inpt {
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 60px;
+    width: 400px;
+}
+
+#btn {
+    background-color: royalblue;
+    text-align: center;
+    cursor: pointer;
+    font-size: 21px;
+    color: white;
+    margin-left: 62px;
+    width: 405px;
+    height: 40px;
+    line-height: 1.9;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 18px;
+    color: deepskyblue;
+}
+
+p {
+    margin-left: 300px;
+    margin-top: -1px;
+    color: black;
+}
+
+.set {
+    margin-top: 40px;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: royalblue;
+}
+
+.LoginInfo {
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    width: 550px;
+    height: 460px;
+    margin-left: 500px;
+    margin-top: 150px;
+    box-shadow: 0 0 30px 1px currentcolor;
+}
+
+.cmder {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.inpt {
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 60px;
+    width: 400px;
+}
+
+#btn {
+    background-color: royalblue;
+    text-align: center;
+    cursor: pointer;
+    font-size: 21px;
+    color: white;
+    margin-left: 60px;
+    width: 405px;
+    height: 40px;
+    line-height: 1.9;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: underline;
+    margin-left: 338px;
+    font-size: 18px;
+    color: deepskyblue;
+    margin-top: -1px;
+}
+
+.set{
+    margin-top: 40px;
+}
