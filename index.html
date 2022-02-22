@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogIn</title>
-    <link rel="stylesheet" href="Login.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -21,21 +21,27 @@
 
 <body>
     <div class="container">
-    <div class="LoginInfo col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1 style="text-align: center; font-family: 'Roboto', sans-serif;">LogIn</h1>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 SignUpInfo">
+        <h1 style="text-align: center; font-family: 'Roboto', sans-serif;">Sign Up</h1>
+        <h3 class="cmder">First name</h3>
+        <input id="first_name" class="form-control inpt" type="text" placeholder="First name">
+        <div class="set">
+            <h3 class="cmder">Last name</h3>
+            <input id="last_name" class="form-control inpt" type="text" placeholder="Last name">
+        </div>
         <div class="set">
             <h3 class="cmder">Email address</h3>
-            <input class="form-control inpt" type="email" id="login_email" placeholder="Enter email">
+            <input id="email" class="form-control inpt" type="email" placeholder="Enter email">
         </div>
         <div class="set">
             <h3 class="cmder">Password</h3>
-            <input class=" form-control inpt" type="password" id="login_password" placeholder="Enter password">
+            <input id="password" class="form-control inpt" type="password" placeholder="Enter password">
         </div>
-        <div style="font-family: 'Roboto', sans-serif;" id="btn">LogIn</div>
-        <a href="index.html">Create an account</a>
+        <div style="font-family: 'Roboto', sans-serif;" onclick="signup()" id="btn">Sign Up</div>
+        <p style="margin-left: 300px;">Already registered <a href="Login.html">login?</a></p>
     </div>
     </div>
-    <script src="Login.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

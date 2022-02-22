@@ -2,13 +2,13 @@ body {
     background-color: royalblue !important;
 }
 
-.LoginInfo {
+.SignUpInfo {
     background-color: white;
     color: red;
     border-radius: 10px;
-    height: 460px;
-    margin-top: 150px;
-    box-shadow: 0 0 30px 1px currentcolor;
+    margin-top: 50px;
+    box-shadow: 0 0 30px 1px grey;
+    text-align: center;
 }
 
 .cmder {
@@ -24,7 +24,6 @@ body {
     border-radius: 5px;
     margin-left: 60px;
     width: 400px !important;
-    box-align: center;
 }
 
 #btn {
@@ -33,7 +32,7 @@ body {
     cursor: pointer;
     font-size: 21px;
     color: white;
-    margin-left: 60px;
+    margin-left: 62px;
     width: 405px;
     height: 40px;
     line-height: 1.9;
@@ -47,12 +46,16 @@ body {
 
 a {
     text-decoration: underline;
-    margin-left: 338px;
     font-size: 18px;
     color: deepskyblue;
-    margin-top: -1px;
 }
 
-.set{
+p {
+    margin-left: 300px;
+    margin-top: -1px;
+    color: black;
+}
+
+.set {
     margin-top: 40px;
 }
